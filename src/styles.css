@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: #172d3a; background: #eef4f6; font-synthesis: none; text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.page { max-width: 1040px; margin: 0 auto; padding: 48px 24px; }
+header { margin-bottom: 28px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; color: #39717a; font-size: .8rem; font-weight: 750; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 10px 0; line-height: 1.12; }
+.subtitle { color: #58707c; line-height: 1.6; max-width: 65ch; }
+.panel { background: white; border: 1px solid #d6e3e7; border-radius: 18px; padding: 24px; }
+form { display: flex; gap: 12px; align-items: end; margin-bottom: 22px; }
+label { display: flex; flex: 1; flex-direction: column; gap: 8px; font-size: .9rem; font-weight: 650; }
+input { min-width: 0; width: 100%; padding: 12px; border: 1px solid #a3b9c3; border-radius: 9px; font: inherit; }
+button { padding: 13px 22px; border: 0; border-radius: 9px; font: inherit; font-weight: 700; background: #176275; color: white; cursor: pointer; }
+button:hover { background: #104b5a; }
+button:disabled { opacity: .6; cursor: wait; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid #cb932f; outline-offset: 3px; }
+.filter { max-width: 510px; margin-bottom: 20px; }
+.table-wrap { overflow-x: auto; border: 1px solid #dbe5e8; border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+th, td { padding: 14px; text-align: left; vertical-align: top; border-bottom: 1px solid #dbe5e8; overflow-wrap: anywhere; }
+th { background: #f1f6f8; color: #365a68; }
+td:first-child { width: 36%; }
+tr:last-child td { border-bottom: 0; }
+a { color: #096980; }
+.error { color: #942b36; background: #fff0f2; padding: 14px; border-radius: 9px; }
+.status, .empty, .note { color: #58707c; line-height: 1.6; }
+.note { font-size: .83rem; }
+@media (max-width: 540px) {
+  .page { padding: 24px 14px; }
+  .panel { padding: 16px; }
+  form { flex-direction: column; align-items: stretch; }
+  th, td { padding: 10px; }
+}
+
