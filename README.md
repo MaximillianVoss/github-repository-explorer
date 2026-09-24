@@ -1,5 +1,7 @@
 # GitHub Repository Explorer
 
+**Запуск из HW.Group-2:** [через общий build-and-run.sh](GROUP-RUN.md). Индивидуальные команды ниже сохранены.
+
 Учебный **React Web + TypeScript + Vite**: все три обязательных этапа и Bonus с собственным hook. [Условие](docs/ASSIGNMENT.md) · [Полный разбор всех файлов](docs/MANUAL.md).
 
 Маршрут: **подготовить Mac → клонировать → Step 1 → Step 2 → Step 3 → Bonus → тесты и сборка → объяснить решение**.
